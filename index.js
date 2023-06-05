@@ -57,6 +57,7 @@ const validarCodigo = (codigo) => {
     
     if (isNaN(codigo)) {
         alert('El código debe ser númerico');
+	return true;
     }
   
     for (let index = 0; index < discos.length; index++) {
